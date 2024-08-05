@@ -8,3 +8,13 @@ dobro = (a) => {
 
 dobro = a => 2 * a // return implicito
 console.log(dobro(Math.PI));
+
+
+let ola = function (){
+    return'ola'
+
+}
+ola = () => 'ola'
+ola = _=> 'ola'//possui um param
+console.log(ola());
+
